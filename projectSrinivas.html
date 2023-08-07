@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="shoping.css">
+    <link rel="stylesheet" href="projectSrinivas.css">
+        
+</head>
+<script>
+    function show1() {
+        document.getElementById('display-first-pair').style.display = 'block';
+        document.querySelector('.container-two').classList.add("mystyle");
+        document.querySelector('.container-three').classList.remove("mystyle");
+        document.querySelector('.container-four').classList.remove("mystyle");
+        document.getElementById('display-second-pair').style.display = 'none';
+        document.getElementById('display-third-pair').style.display = 'none';
+    }
+    function show2() {
+        document.getElementById('display-second-pair').style.display = 'block';
+        document.querySelector('.container-two').classList.remove("mystyle");
+        document.querySelector('.container-four').classList.remove("mystyle");
+        document.querySelector('.container-three').classList.add("mystyle");
+        document.getElementById('display-first-pair').style.display = 'none';
+        document.getElementById('display-third-pair').style.display = 'none';
+    }
+    function show3() {
+        document.getElementById('display-third-pair').style.display = 'block';
+        document.querySelector('.container-four').classList.add("mystyle");
+        document.querySelector('.container-two').classList.remove("mystyle");
+        document.querySelector('.container-three').classList.remove("mystyle");
+        document.getElementById('display-second-pair').style.display = 'none';
+        document.getElementById('display-first-pair').style.display = 'none';
+    }
+</script>
+
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="container-one">
+                <div class="horizontal-one">
+                    <hr style="height:1px;border-width:0;color:
+                    #C8C8C8;background-color:gray;margin: 0px;">
+                </div>
+                <div class="Bundle">Bundle & Save</div>
+                <div class="horizontal-two">
+                    <hr style="height:1px;border-width:0;color:
+                    #C8C8C8;background-color:gray;margin:0px">
+                </div>
+            </div>
+
+
+            <div class="container-two">
+                <div class="one-pair-main">
+                    <div class="one-pair">
+                        <input type="radio" id="html" name="fav_language" value="HTML" onclick="show1()">
+                        <label class="lable" for="html"><span class="pair">1 Pair</span><br><span class="dkk">DKK
+                                195.00</span></label><br>
+                        </label>
+                    </div>
+                    <div class="fifty">
+                        50% off
+                    </div>
+                </div>
+                <div id="display-first-pair">
+                    <div class="size-colour">
+                        <div class="size">Size</div>
+                        <div class="colour">Colour</div>
+                    </div>
+                    <div class="size-s-colour">
+                        <div class="number">#1</div>
+                        <div class="size-s">
+                            <span>S</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="colour-diffrence">
+                            <span>Colour</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="container-three">
+                <div class="container-three-width">
+                    <div class="one-pair">
+                        <input type="radio" id="html" name="fav_language" value="HTML" onclick="show2()">
+                        <label class="lable" for="html"><span class="second-pair">2 Pair</span
+                                class="second-dkk"><br><span class="dkk">DKK 345.00</span></label><br>
+                        </label>
+                    </div>
+                    <div class="strike">
+                        <s>DKK 195.00</s>
+                    </div>
+                    <div class="Most">
+                        <span>Most Popular</span><br>
+                        <span class="fifty"> 40% off</span>
+                    </div>
+                </div>
+
+                <div id="display-second-pair">
+                    <div class="size-colour">
+                        <div class="size">Size</div>
+                        <div class="colour">Colour</div>
+                    </div>
+                    <div class="size-s-colour">
+                        <div class="number">#1</div>
+                        <div class="size-s">
+                            <span>S</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="colour-diffrence">
+                            <span>Colour</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="size-s-colour space-between">
+                        <div class="number">#2</div>
+                        <div class="size-s">
+                            <span>S</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="colour-diffrence">
+                            <span>Colour</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-four">
+                <div class="one-pair-main">
+                    <div class="one-pair">
+                        <input type="radio" id="html" name="fav_language" value="HTML" onclick="show3()">
+                        <label class="lable" for="html"><span class="pair">3 Pair</span><br><span class="dkk">DKK
+                                528.00</span></label><br>
+                        </label>
+                    </div>
+                    <div class="fifty">
+                        60% off
+                    </div>
+                </div>
+                <div id="display-third-pair">
+                    <div class="size-colour">
+                        <div class="size">Size</div>
+                        <div class="colour">Colour</div>
+                    </div>
+                    <div class="size-s-colour">
+                        <div class="number">#1</div>
+                        <div class="size-s">
+                            <span>S</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="colour-diffrence">
+                            <span>Colour</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="size-s-colour space-between">
+                        <div class="number">#2</div>
+                        <div class="size-s">
+                            <span>S</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="colour-diffrence">
+                            <span>Colour</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="size-s-colour space-between">
+                        <div class="number">#3</div>
+                        <div class="size-s">
+                            <span>S</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="colour-diffrence">
+                            <span>Colour</span>
+                            <span><svg width="6" height="5" viewBox="0 0 6 5" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.26369 4.7583L0.915539 0.691186L5.61184 0.691187L3.26369 4.7583Z"
+                                        fill="black" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-five">
+                <div class="shipping">Free 2 Day Shipping</div>
+                <div class="Total">Total : DKK 360.00</div>
+            </div>
+
+            <div class="container-six">
+                <div class="green-box">
+                    <div class="add-cart">
+                        + Add to Cart
+                    </div>
+                </div>
+                <div class="power">
+                    <span>&copy;
+                    </span>
+                    <span class="pumper">Powered by Pumper</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
